@@ -1,3 +1,494 @@
-<h1>PORTFOLIO</h1>
-<hr>
-<p>I’m Rakesh, here is my Portfolio.</p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="rakesh.jpg">
+    <title>Rakesh Vishwakarma</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+    
+html {
+    scroll-behavior: smooth;
+}
+
+.image > img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.image > img:hover {
+    width: 200px;
+}
+
+.text {
+     font-weight: 400;
+     font-family: Segoe UI;
+     font-size: 18px;
+}
+
+.material-icons {
+    float: left;
+    margin-right: 6px;
+}
+
+.media-icon {
+    width: 45px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.about, .experience, .projects, .education, .skills, .intersets, .awards, .language {
+    margin-top: 40px;
+    margin-left: 20%;
+    width: 70%;
+}
+
+section {
+    margin-top: 60px;
+    color: rgb(61, 64, 66);
+    min-height: 95vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about > p {
+    font-size: 20px;
+}
+
+.mt-n1 {
+    font-size: 18px;
+}
+
+.effect:hover {
+    background-color:  rgb(248, 251, 252);
+    border-radius: 10px;
+}
+
+.section {
+    color: rgb(113, 191, 221);
+}
+
+.company {
+    color: teal;
+}
+
+.name {
+    font-size: 48px;
+}
+
+#sidebar {
+    background-color: rgb(219, 227, 231);
+    height: 100%;
+    width: 18%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    text-align: center;
+} 
+
+.skillsRequired {
+    color: black;
+}
+
+.profile {
+    margin-top: 80px;
+    border-radius: 90%;
+    border: 6px solid rgb(113, 191, 221);
+    width: 70%;
+    height: auto;
+}
+
+ul.points > li {
+    list-style-type: square;
+}
+
+ul.points > li > h6 {
+    font-size: 18px;
+}
+
+ul.points > li > p {
+    font-size: 17px;
+}
+
+ul.award > li {
+    font-size: 20px;
+    list-style-type: square;
+}
+
+.sideBarLink {
+    text-decoration: none;
+    color: rgb(70, 166, 204);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(46, 48, 50);
+}
+
+.post {
+    color: rgb(46, 48, 50);
+}
+    </style>
+</head>
+<body>
+        <nav id="sidebar">
+            <div class="hello">
+                <img src="image/rakesh.jpg" class="img-responsive profile" alt="Rakesh Vishwakarma">
+            </div>
+            <div class="text-uppercase mt-3"> 
+                <a href="#ABOUT" class="sideBarLink ABOUT">ABOUT</a>
+            </div>
+            <div class="text-uppercase mt-1">
+                <a href="#EXPERIENCE" class="sideBarLink EXPERIENCE">EXPERIENCE</a>
+            </div>
+            <div class="text-uppercase mt-1">
+                <a href="#PROJECTS" class="sideBarLink PROJECTS">Projects</a>
+            </div>
+            <div class="text-uppercase mt-1">
+                <a href="#EDUCATION" class="sideBarLink EDUCATION">EDUCATION</a>
+            </div>
+            <div class="text-uppercase mt-1">
+                <a href="#SKILLS" class="sideBarLink SKILLS">SKILLS</a>
+            </div>
+            <div class="text-uppercase mt-1">
+                <a href="#AWARDS" class="sideBarLink AWARDS">AWARDS</a>
+            </div>
+            <div class="text-uppercase mt-1">
+                <a href="#LANGUAGE" class="sideBarLink LANGUAGE">language</a>
+            </div>
+        </nav>
+
+<!-- main page content -->
+<div class="main">
+        <div class="container-fluid">
+            <hr size="1" class="pb-2" id="ABOUT">
+                        <!-- ABOUT -->
+                <section class="about mt-5">
+                    <h2 class="text-uppercase section">hello, i'm</h2>
+                    <h1 class="mt-3 name">Rakesh <b>Vishwakarma</b></h1>
+                    <h4 class="mt-n1">Full Stack Engineer</h4>
+                    <p class="mt-4">Experienced Full Stack Engineer with web-application architecture and have worked with a good number of successful development projects/teams in the start-up with good-level proficiency, seeking to establish a career as the Full Stack Engineer.</p>
+                    
+                    <div class="address mt-4">
+                        <h5 class="icon">Address</h5>
+                        <p class="mt-n1">02 Nunidih, Jitpur Road, Dhanbad, Jharkhand, INDIA 828309</p>
+                    </div>
+
+                    <div class="phone mt-4">
+                        <h5 class="icon">Phone</h5>
+                        <p class="mt-n1">+91 960 865 0941</p>
+                    </div>
+
+                    <div class="email mt-4">
+                        <h5 class="icon">Email</h5>
+                        <p class="mt-n1"><a href="mailto:rakesh.tu16@gmail.com">rakesh.tu16@gmail.com</a></p>
+                    </div>
+
+                    <div class="media mt-4">
+                        <!--Logo download from www.flaticon.com -->
+                        <a href="https://www.linkedin.com/in/rakeshislive/" target="_blank"><img src="image/icon/linkedin.svg" class="media-icon" alt="linkedin"></a>
+                        <a href="https://github.com/rakeshislive" target="_blank"><img src="image/icon/github.svg" class="media-icon" alt="github"></a>
+                        <a href="https://www.facebook.com/rakeshislive" target="_blank"><img src="image/icon/facebook.svg" class="media-icon" alt="facebook"></a>
+                    </div>      
+                </section>
+
+                <hr size="1" class="pb-2" id="EXPERIENCE">
+                <!-- EXPERIENCE -->
+                <section class="experience mt-5">
+                    <h2 class="text-uppercase section">EXPERIENCE</h2>
+                    <div class="row mt-4">
+                        <div class="col-lg-12 col-md-12 col-sm-6">
+                            <div class="tuitonic">
+                                <h5 class="text-uppercase post">Full Stack Engineer</h5>
+                                <h6 class="company" style="float: right;">NOV 2018 - June 2020</h6>
+                                <h6 class="company">tuitonic.com  <a href="http://www.tuitonic.com" target="_blank"><i class="material-icons">open_in_new</i></a></h6>
+                                <ul class="points">
+                                    <li>Reduced time to render the webpages by 82% by implementing ExpressJS and Bootstrap framework.</li>
+                                    <li>Redesigned the User interface on simplified component to make more dynamic & convenience to the clients.</li>
+                                    <li>Implemented E-mail services & Google Map API, to get 98% accurate information in databases.</li>
+                                    <li>Operated c-Penal and puTTY software for hosting</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="nss mt-5">
+                                <h5 class="text-uppercase post">Volunteers & Webmaster</h5>
+                                <h6 class="company" style="float: right;">Ongoing</h6>
+                                <h6 class="company">NSS, Tezpur University <a href="http://www.tezu.ernet.in/nss/" target="_blank"><i class="material-icons">open_in_new</i></a></h6>
+                                <ul class="points">
+                                    <li>Designed a dynamic & responsive webpage for greater than 10,000 volunteers over University and outside.</li>
+                                    <li>Developed backend to register, login, events notifications via e-mail for greater than 1,000 volunteers per sessions.</li>
+                                </ul>
+                            </div>
+
+                            <div class="Educator mt-5">
+                                <h5 class="text-uppercase post">Educator</h5>
+                                <h6 class="company" style="float: right;">Feb 2018 – July 2019</h6>
+                                <h6 class="company">Campus Tuition <a href="http://www.tuitonic.com" target="_blank"><i class="material-icons">open_in_new</i></a></h6>
+                                <ul class="points">
+                                    <li>Taught Mathematics more than 30 students of higher secondary for JEE Mains/Advanced, average ratings of 4.7 out of 5.0</li>
+                                    <li>Managed an engineering coaching center for the period of 1.5 years, greater than 5 students qualified JEE mains. 2 of our students studying in NIT Silcher.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>        
+                    
+                <hr size="1" class="pb-2" id="PROJECTS">
+                <!-- PROJECTS -->
+                <section class="projects mt-5">
+                    <h2 class="text-uppercase section">PROJECTS</h2>
+                    <div class="row mt-4">
+                        <div class="col-lg-12 col-md-12 col-sm-6">
+                            <div class="todolist">
+                                <h5 class="text-uppercase post">To-Do List</h5>
+                                <h6 class="company" style="float: right;">2018</h6>
+                                <h6 class="company">Personal <a href="http://www.github.io/rakeshtu16" target="_blank"><i class="material-icons">open_in_new</i></a></h6>
+                                <ul class="points">
+                                    <li>Designed a TO-DO to list for editing and deleting the daily tasks, Stored in the Chrome
+                                        Browser.</li>
+                                    <h6 class="skillsRequired">HTML, CSS, JavaScript, Chrome.</h6>
+                                </ul>
+                            </div>
+                            
+                            <div class="Database mt-5">
+                                <h5 class="text-uppercase post">Database</h5>
+                                <h6 class="company" style="float: right;">2018</h6>
+                                <h6 class="company">Academics <a href="http://www.github.io/rakeshtu16" target="_blank"><i class="material-icons">open_in_new</i></a></h6>
+                                <ul class="points">
+                                    <li> Designed & developed a website to store the information of football player & matches.</li>
+                                    <h6 class="skillsRequired">HTML, CSS, JavaScript, Bootstrap, MySQL, PHP</h6>
+                                </ul>
+                            </div>
+
+                            <div class="Hostel mt-5">
+                                <h5 class="text-uppercase post">Hostel Webpage</h5>
+                                <h6 class="company" style="float: right;">2017</h6>
+                                <h6 class="company">Academics <a href="http://www.tezu.ernet.in/hostel/cmh/" target="_blank"><i class="material-icons">open_in_new</i></a></h6>
+                                <ul class="points">
+                                    <li>Designed & developed hostel web website to show the basic information of hostel
+                                        boarder and mess related queries.</li>
+                                    <h6><i>Got rebate in mess fee.</i></h6>
+                                    <h6 class="skillsRequired">HTML, CSS, Telnet Server</h6>
+                                </ul>
+                            </div>
+
+                            <div class="Vidyalaya mt-5">
+                                <h5 class="text-uppercase post">Kendriya Vidyalaya</h5>
+                                <h6 class="company" style="float: right;">2017</h6>
+                                <h6 class="company">Volunteers <a href="http://www.tezu.ernet.in/hostel/cmh/" target="_blank"><i class="material-icons">open_in_new</i></a></h6>
+                                <ul class="points">
+                                    <li>Coached more than 30 students of higher secondary as a volunteers based, in
+                                        classroom.</li>
+                                    <h6 class="skillsRequired">Mathematics</h6>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>                
+
+                <hr size="1" class="pb-2" id="EDUCATION">
+                <!-- EDUCATION -->
+                <section class="education mt-5">
+                    <h2 class="text-uppercase section">EDUCATION</h2>
+                    <div class="row mt-4">
+                        <div class="col-lg-12 col-md-12 col-sm-6">
+
+                            <div class="Bachelor">
+                                <h5 class="text-uppercase post">Bachelor</h5>
+                                <h6 class="company" style="float: right;">July 2016 - June 2020</h6>
+                                <h6 class="company">Tezpur University, Tezpur</h6>
+                                <h6>Assam, INDIA</h6>
+                                <ul class="points">
+                                    <li>Bachelor of Technology, Computer Science & Engineering.</li>
+                                    <li>Coursework: Operating Systems; Databases; Algorithms; Data Structure</li>
+                                </ul>
+                            </div>
+
+                            <div class="Higher mt-5">
+                                <h5 class="text-uppercase post">Higher Secondary</h5>
+                                <h6 class="company" style="float: right;">July 2014 – June 2016</h6>
+                                <h6 class="company">JLSM DAV College, Dhanbad</h6>
+                                <h6>Jharkhand, INDIA</h6>
+                                <ul class="points">
+                                    <li>Higher Secondary, Science Stream, Computer Science, Physics, Chemistry & Mathematics.</li>
+                                    <li>Got 5th rank with 99.96 percentile in Dhanbad District, Jharkhand.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>        
+
+                <hr size="1" class="pb-2" id="SKILLS">
+                <!-- SKILLS -->
+                <section class="skills mt-5">
+                    <h2 class="text-uppercase section">SKILLS</h2>
+                    <div class="row mt-4">
+                        <div class="col-lg-12 col-md-12 col-sm-6">
+                            <ul class="points">
+                                <li>
+                                    <h6>Programming Languages</h6>
+                                    <p>C; Java; JavaScript; MongoDB; NodeJS; MySQL; jQuery; ES6</p>
+                                </li>
+                            </ul>
+
+                            <ul class="points mt-4">
+                                <li>
+                                    <h6>Framework/Library</h6>
+                                    <p>Bootstrap; ExpressJS; ReactJS</p>
+                                </li>
+                            </ul>
+
+                            <ul class="points mt-4">
+                                <li>
+                                    <h6>Software</h6>
+                                    <p>Visual Studio; Microsoft SQL Server; Eclipse; Adobe XD; puTTY; MS Office.</p>
+                                </li>
+                            </ul>
+
+                            <ul class="points mt-4">
+                                <li>
+                                    <h6>Interpersonal</h6>
+                                    <p>Communication Skills; Leadership; Public Speaking; Team Work</p>
+                                </li>
+                            </ul>
+                            
+                            <ul class="points mt-4">
+                                <li>
+                                    <h6>Additional</h6>
+                                    <p>Data Structure, Mathematics, Operating Systems</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 class="text-uppercase section mt-5">INTERESTS</h2>
+                    <div class="row mt-3">
+                        <div class="col-lg-12 col-md-12 col-sm-6">
+                            <ul class="points">
+                                <li>Coding & Design</li>
+                                <li>Reading Books</li>
+                                <li>Entrepreneurship</li>
+                                <li>Teaching</li>
+                                <li>Photography</li>
+                                <li>Music & Movies</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>                                        
+
+                <hr size="1" class="pb-2" id="AWARDS">
+                <!-- AWARDS -->
+                <section class="awards mt-5">
+                    <h2 class="text-uppercase section">Awards & Certifications</h2>
+                    <div class="row mt-4">
+                        <div class="col-lg-12 col-md-12 col-sm-6">
+                            <ul class="points">
+                                <li>
+                                    <h6>6th International Yoga Day, 2020</h6>
+                                    <p> Got 3rd Prize on the online videos blogging contest on 6th International day of Yoga, out of 113 participants.</p>
+                                </li>
+                                <li>
+                                    <h6>Best Volunteers Award, 2020</h6>
+                                    <p> Awarded best volunteers award for social working and web developer in NSS, out of 300 Volunteers.</p>
+                                </li>
+                                <li>
+                                    <h6>Runner-up, 2017 & 2018</h6>
+                                    <p>Two times Runner-up, Inter Hostel Cricket tournament. CMH, Tezpur Univeristy</p>
+                                </li>   
+                                
+                                <li>
+                                    <h6>Event Coordinator</h6>
+                                    <ul class="points">
+                                        <li>NSS NORTH-EAST Fest, 2020</li>
+                                        <li>International Day of Yoga, 2018</li>
+                                        <li>YOUTHRA, PRIA, 2017</li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                <h6 class="mt-3">Students Volunteer</h6>
+                                <ul class="points">
+                                    <li>North East NSS Festival, 2019</li>
+                                    <li>Swaach Bharat Abhiyan, 2016</li>
+                                </ul>
+                                </li>
+
+                                <li>
+                                    <h6 class="mt-3">Course & Extra</h6>
+                                    <ul class="points">
+                                        <li>NPTEL, Internet Of Things, 2019</li>
+                                        <li>NPTEL, Programming in Java, 2019</li>
+                                        <li>Udemy, An Introduction of Adobe XD, 2019</li>
+                                        <li>Udemy, Database SQL, 2019</li>
+                                        <li>Udemy, Time Management, 2019</li>
+                                        <li>The Nest Assam Start-up India, 2018</li>
+                                        <li>TECHXETRA, 2017</li>
+                                        <li>Workshop on Digital India, 2016</li>
+                                    </ul>
+                                </li>
+                                 
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <hr size="1" class="pb-2" id="LANGUAGE">
+                <section class="language mt-5">
+                    <h2 class="text-uppercase section">LANGUAGE & Books</h2>
+                    <div class="row mt-4">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="Hindi mt-4">
+                                <h5 class="icon">Hindi</h5>
+                                <p class="mt-n2">Native or bilingual proficiency</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="English mt-4">
+                                <h5 class="icon">English</h5>
+                                <p class="mt-n2">Professional working proficiency</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="Assamesse mt-4">
+                                <h5 class="icon">Assamesse</h5>
+                                <p class="mt-n2">Elementary proficiency</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="text-uppercase section mt-4">Books & Blogs</h2>
+                    <div class="row mt-3">
+                        <div class="col-lg-12 col-md-12 col-sm-6">
+                            <ul class="points">
+                                <li>The Psychology of Selling, <b>Brian Tracy</b></li>
+                                <li>How to win friends & influence People, <b>Dale Carnegire</b></li>
+                                <li>Think & Grow Rich, <b>Nipoleon Hill</b></li>
+                                <li>The Google Resume, <b> Gayle Laakmann</b></li>
+                                <li>The Miracle Morning, <b>Hal Elrod</b></li>
+                                <li>The business of the 21st century, <b>Robert T. Kiyosaki</b></li>
+                                <li>Cashflow Quadrent, <b>Robert T. Kiyosaki</b></li>
+                                <li>Rich Dad and Poor Dad, <b>Robert T. Kiyosaki</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5">
+                        <!--<a href="Rakesh Vishwakarma D.pdf" target="_blank"><button class="btn btn-outline-primary">Download PDF</button></a>-->
+                    </div>
+                </section>        
+                </div>
+            </div>
+    </div>
+</body>
+</html>

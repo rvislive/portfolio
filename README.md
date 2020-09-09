@@ -1,2 +1,2 @@
-# portfolio
-I'm Rakesh, here is my Portfolio. 
+# rakeshislive.github.io
+Resume
