@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #211f1f;
+    text-color: #ffffff
+}
+
 .image > img {
     width: 120px;
     height: auto;
@@ -70,7 +75,7 @@ section {
 }
 
 #sidebar {
-    background-color: rgb(219, 227, 231);
+    background-color: #102459;
     height: 100%;
     width: 18%; 
     position: fixed; 
