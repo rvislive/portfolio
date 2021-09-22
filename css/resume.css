@@ -2,11 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #211f1f;
-    text-color: #ffffff
-}
-
 .image > img {
     width: 120px;
     height: auto;
